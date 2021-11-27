@@ -1,0 +1,61 @@
+/* select by mark up */
+body{
+    margin: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10 px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 2%;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: rgb(253, 103, 103);
+}
+/* for multi using on any markup */
+.Text{
+    font-size: large;
+}
+/*id for unique style for spcefic markup */
+#MainText{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+#Subtitle{
+    text-align: center;
+    font-style:italic;
+    color: rgb(53, 53, 53);
+}
+.line{
+    width: 50%;
+}
+input{
+    padding: 10px;
+    display: grid;
+    margin: 18px;
+    border-radius: 5px;
+    width: 25%;
+    border-color: #c9c7c70d;
+    box-shadow: #9b9b9b 1px 1px 2px 1px;
+}
+
+.btn{
+    font-size: 15px ;
+    font-weight:500;
+    color: white;
+    width: 30%;
+    display: inline;
+}
+input.btn.btn-danger{
+    background-color: crimson;
+}
+input.btn.btn-primary{
+    background-color: #5f56db;
+}
+.btn:hover{
+    padding: 11px;
+}
